@@ -1,0 +1,29 @@
+html{
+    font-size: 15px;
+}
+body{
+    /* 上下左右居中 */
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    font-family: Helvetica;
+
+
+}
+h1{
+    font-size:6rem ;
+}
+span{
+    display: inline-block;
+    /* 先实现标题跳动的动画效果 */
+    animation: .4s jump ease-in-out;
+}
+@keyframes jump {
+    /* A点到B点再到B点 */
+    0%,100% {
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+}

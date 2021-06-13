@@ -1,0 +1,37 @@
+body{
+    background:url('image/login_background.gif');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+#login-box{
+    width: 30%;
+    height: 200px;
+    border: 1px soid #000;
+    margin:0 auto ;
+    margin-top: 10%;
+    text-align: center;
+    background: rgba(11, 11, 11, 50%) ;
+    padding: 20px 50px;
+}
+
+#login-box .form .item {
+    margin-top: 15px;
+}
+#login-box .form .item input{
+    border: 0;
+    border-bottom: 2px solid #fff;
+    padding: 2px 10px;
+    background: #ffffff00;
+    color: #fff;
+    font-size: 18px;
+}
+#login-box button{
+    margin-top: 15px;
+    width: 180px;
+    height: 30px;
+
+}
+#login-box .form .item i{
+    font-size: 18px;
+    color: #fff;
+}
